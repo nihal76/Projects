@@ -1,0 +1,14 @@
+#root{
+  background-color: #233142;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:1em;
+}
+section {
+  padding: 0 1em;
+  background-color: #bad8b6;
+  max-height:30%;
+  width: 30%;
+}

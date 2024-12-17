@@ -1,0 +1,38 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+section {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.products img {
+  width: 100%;
+  height: auto;
+}
+button{
+  margin-left: 1em;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav button {
+  height: fit-content;
+  padding: 0.5em;
+}
+
+#cart{
+  display: flex;
+  flex-direction: column;
+}
+#cartPage{
+   display: flex;
+   flex-wrap: wrap;
+}

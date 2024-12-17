@@ -1,0 +1,31 @@
+.app{
+  display: flex;
+  justify-content: center;
+  gap:2em;
+}
+.container, .userexpense {
+  width:30vw;
+}
+h1{
+  color: darkblue;
+}
+.expenses h3{
+  color: darkgreen;
+}
+.incomeexpense{
+  display: flex;
+  justify-content: space-around;
+}
+.userexpense{
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+}
+input {
+  height: 2em;
+}
+#btn{
+  background-color: blue;
+  color: #fff;
+  width:100%;
+}

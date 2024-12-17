@@ -1,0 +1,15 @@
+#msg{
+  background-color: aquamarine;
+}
+
+#header{
+  background-color: aquamarine;
+  font-weight:bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+#header li{
+  list-style: none;
+}
